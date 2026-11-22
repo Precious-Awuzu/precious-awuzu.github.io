@@ -103,20 +103,34 @@ main :focus-visible,.skip:focus-visible{outline:3px solid #005b55;outline-offset
   <div class="hero">
     <div>
       <small>Health data &amp; service improvement</small>
-      <h1>Precious<br>Awuzu</h1>
-      <p><strong>Health data and service improvement analyst</strong></p>
-      <p>I work in NHS occupational health. I use service records to trace delays and test how decisions affect patients and staff. I’m seeking UK health data, service improvement and applied AI governance roles.</p>
-      <p>MSc Data Science (Merit) · University of Gloucestershire</p>
+      <h1>Precious Awuzu</h1>
+      <p><strong>NHS occupational health administrator · MSc Data Science (Merit)</strong></p>
+      <p>In NHS occupational health, I coordinate referrals and respond to people waiting for their next appointment. My MSc in Data Science at the University of Gloucestershire gave me a way to investigate the questions behind those calls. I use Python to measure incoming demand, compare how models classify cases and identify what the available records can tell a service manager.</p>
       <a class="cta" href="#projects">Explore my work</a>
     </div>
   </div>
 
   <h2 id="projects">Selected projects</h2>
   <div class="grid">
-    <!-- Existing projects -->
+    <article>
+      <img class="project-art" loading="lazy" decoding="async" src="assets/clinic-illustration.webp" alt="Healthcare worker reviewing a digital referral">
+      <small>Featured · NHS service analytics</small>
+      <h2><a href="https://github.com/Precious-Awuzu/nhs-referrals-sep2025-analysis">When did NHS referral demand peak?</a></h2>
+      <p>I grouped 1,674,089 referrals by week and priority across 1–28 September 2025. The week of 15 September accounted for 479,615 referrals, 20.5% above the average of the other three weeks.</p>
+      <figure>
+        <figcaption>Share of referrals by recorded priority</figcaption>
+        <div class="mini">
+          <span>Routine<i style="height:21.28px"></i>66.5%</span>
+          <span>2WW<i style="height:5.7px"></i>17.8%</span>
+          <span>Urgent<i style="height:5.02px"></i>15.7%</span>
+        </div>
+      </figure>
+      <small>Python · pandas · View analysis on GitHub</small>
+    </article>
+
     <article>
       <img class="project-art" loading="lazy" decoding="async" src="assets/research-illustration.webp" alt="Clinician taking a blood pressure reading">
-      <small>Featured · MSc dissertation</small>
+      <small>MSc dissertation</small>
       <h2><a href="research.html">Predicting hypertension</a></h2>
       <p>A decision tree and XGBoost both reached 99% accuracy in my MSc comparison. The dissertation workbook contains 219 subjects across four recorded hypertension categories.</p>
       <figure>
@@ -131,18 +145,6 @@ main :focus-visible,.skip:focus-visible{outline:3px solid #005b55;outline-offset
         </div>
       </figure>
       <small>Python · Scikit-learn</small>
-    </article>
-
-    <article>
-      <img class="project-art" loading="lazy" decoding="async" src="assets/clinic-illustration.webp" alt="Healthcare worker reviewing a digital referral">
-      <small>Occupational health</small>
-      <h2><a href="clinic.html">Tracking a referral through review</a></h2>
-      <p>One referral, five dated updates. The prototype shows when the team was waiting for the referrer and when the case was ready for clinical review.</p>
-      <figure>
-        <figcaption>Five stages in one fictional case</figcaption>
-        <small>Received → Clarification → Review → Decision → Booking</small>
-      </figure>
-      <small>Microsoft Lists · Workflow design</small>
     </article>
 
     <article>
@@ -174,23 +176,6 @@ main :focus-visible,.skip:focus-visible{outline:3px solid #005b55;outline-offset
         </div>
       </figure>
       <small>Python · CSV analysis</small>
-    </article>
-
-    <!-- NHS referrals project -->
-    <article>
-      <img class="project-art" loading="lazy" decoding="async" src="assets/clinic-illustration.webp" alt="Healthcare worker reviewing a digital referral">
-      <small>NHS referrals</small>
-      <h2><a href="https://github.com/Precious-Awuzu/nhs-referrals-sep2025-analysis">Looking at September 2025 NHS referrals</a></h2>
-      <p>People talk a lot about long NHS waits, so I looked at what comes in first. Out of 1,674,089 referrals in September 2025, 66.5% were Routine and one week jumped 20.5%.</p>
-      <figure>
-        <figcaption>Share by priority (Sep 2025)</figcaption>
-        <div class="mini">
-          <span>Routine<i style="height:21.28px"></i>66.5%</span>
-          <span>2WW<i style="height:5.7px"></i>17.8%</span>
-          <span>Urgent<i style="height:5.02px"></i>15.7%</span>
-        </div>
-      </figure>
-      <small>Python · Pandas</small>
     </article>
   </div>
 </main>
