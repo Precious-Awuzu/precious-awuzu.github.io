@@ -24,3 +24,7 @@ python3 analysis/analyse_handovers.py analysis/support-cases.csv
 | 0 | 1 of 5 | 20% |
 | 1 | 2 of 5 | 40% |
 | 2 or more | 4 of 5 | 80% |
+
+## Repeat blood pressure measurements in NHANES
+
+The [paired-reading analysis](https://precious-awuzu.github.io/preciousawuzu.github.io/research.html#nhanes) uses public CDC examination data. Run `python3 analysis/compare_blood_pressure_readings.py` with pandas installed to download the source and reproduce the counts. The script also accepts a local XPT file. This analysis is separate from the MSc model comparison.
