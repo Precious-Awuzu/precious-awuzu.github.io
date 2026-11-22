@@ -8,7 +8,7 @@ My MSc in Data Science (Merit) at the University of Gloucestershire focused on p
 
 | Case study | Method and finding |
 | --- | --- |
-| [When did NHS referral demand peak?](https://precious-awuzu.github.io/referrals.html) | I summed the referral counts in 35,631 grouped records covering 1–28 September 2025. The week of 15 September was 20.5% above the mean of the other three weeks. The extract measures incoming demand. Waiting times require separate pathway records. |
+| [NHS referral demand by week, priority, specialty and commissioner](https://precious-awuzu.github.io/referrals.html) | I analysed 1,674,089 referrals recorded from 1 to 28 September 2025 across 62 specialties and 114 commissioner entries. Routine referrals made up 66.5% of demand overall and 85.2% in orthopaedics. The ten highest-volume commissioners accounted for 29.35% of all referrals. |
 | [Predicting hypertension](https://precious-awuzu.github.io/research.html) | A decision tree and XGBoost both reached 99% reported accuracy in my MSc comparison. That tie leaves a clinical question open: how many positive cases did each model miss? |
 | [Auditing AI-assisted support triage](https://precious-awuzu.github.io/governance.html) | At a threshold of 0.6, the example rules missed three of four urgent brief tickets and one of four urgent detailed tickets. Each subgroup contains only four positives, so one case shifts its miss rate by 25 percentage points. |
 | [Investigating customer support handovers](https://precious-awuzu.github.io/quality.html) | I grouped 15 synthetic cases by handover count and measured repeat contact within seven days. The sample illustrates an association. It cannot establish whether extra handovers caused customers to call again. |
