@@ -31,7 +31,7 @@ The AI triage and customer support demonstrations use synthetic examples alongsi
 
 ## Skills and tools
 
-- **Analysis.** Python, pandas, scikit-learn, SQL, Excel and Power BI.
+- **Analysis.** Python, R, pandas, scikit-learn, SQL, Excel and Power BI.
 - **Health information.** Cohort, OPAS G2, data quality checks, KPI reporting and audit support.
 - **Customer and team operations.** Technical troubleshooting, customer retention, outbound prospecting and team coordination.
 
