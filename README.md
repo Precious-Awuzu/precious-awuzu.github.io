@@ -1,8 +1,8 @@
 # Precious Awuzu | Health data and service improvement
 
-I work where healthcare operations, data analysis and customer service meet. In NHS occupational health, I investigate discrepancies in staff health records, prepare activity reports and support clients using OPAS G2. When callers kept asking how long referrals would take, I revised our letters to give them a realistic timeframe.
+I work in NHS occupational health and hold an MSc in Data Science (Merit). This portfolio brings together the service problems I have worked on and the analyses behind my technical work.
 
-My MSc in Data Science (Merit) at the University of Gloucestershire focused on predicting hypertension. I also bring experience in residential care, resolving complex customer issues at Three UK, outbound business development and leading an administrative team in Nigeria.
+[Read about the referral letters, shared appointment tracker and record correction](https://precious-awuzu.github.io/#nhs-work)
 
 [View the live portfolio](https://precious-awuzu.github.io/)
 
@@ -27,12 +27,12 @@ python3 analysis/analyse_handovers.py analysis/support-cases.csv
 | 1 | 2 of 5 | 40% |
 | 2 or more | 4 of 5 | 80% |
 
-The dissertation workbook contains 219 distinct subjects across four hypertension categories. The AI triage and customer support demonstrations use synthetic examples alongside published UK evidence from DWP and Ofcom.
+The AI triage and customer support demonstrations use synthetic examples alongside published UK evidence from DWP and Ofcom.
 
-## Skills in practice
+## Skills and tools
 
-- **Data analysis and modelling.** Python, pandas, scikit-learn, SQL, Excel and Power BI. My projects include analysing NHS referral volumes and comparing six hypertension classifiers.
-- **Healthcare operations and governance.** Cohort, OPAS G2, data quality checks, KPI reporting and audit support. I built a Microsoft Lists tracker so administrators and clinical PAs could review appointment changes in one place.
-- **Customer and team operations.** Customer retention, technical troubleshooting, CRM records, prospecting and team coordination. At Three UK, I handled complex orders and coached colleagues on compliance.
+- **Analysis.** Python, pandas, scikit-learn, SQL, Excel and Power BI.
+- **Health information.** Cohort, OPAS G2, data quality checks, KPI reporting and audit support.
+- **Customer and team operations.** Technical troubleshooting, customer retention, outbound prospecting and team coordination.
 
 [Email Precious](mailto:preciousawuzu@outlook.com) · [LinkedIn](https://uk.linkedin.com/in/precious-awuzu-581737a3)
